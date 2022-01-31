@@ -1,5 +1,5 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
+// import Fade from "react-reveal/Fade";
 import styled from "styled-components";
 import { H1 } from "../styles/TextStyles";
 
@@ -26,9 +26,9 @@ const Work = () => {
 
       <WrapperContainer>
         <WrapperWork>
-          <Fade bottom>
-            <Title>PROJECTS</Title>
-          </Fade>
+          {/* <Fade bottom> */}
+          <Title>PROJECTS</Title>
+          {/* </Fade> */}
           {/* <Gallery /> */}
           <div className="grid">
             <Card2>

@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/layout/layout";
-import Skills from "../components/sections/skills";
+import Skills from "../components/sections/Skills";
 import Footer from "../components/sections/Footer";
 import Work from "../components/sections/Work";
 import About from "../components/sections/About";

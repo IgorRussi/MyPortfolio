@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Fade from "react-reveal/Fade";
+// import Fade from "react-reveal/Fade";
 import { H1 } from "../styles/TextStyles";
 import DownloadButton from "../buttons/DownloadButton";
 
@@ -31,33 +31,32 @@ const About = () => {
           </GridTree>
 
           <GridOne>
-            <Fade left big>
-              <Description>
-                Energetic Front-End Developer with experience and passion for
-                responsive website design. Proficient in HTML5, CSS3, jQuery,
-                JavaScript and React; plus modern libraries and frameworks. I
-                believe that great design is a result of the collaboration
-                between designers, developers and stakeholders, whose combined
-                experience and efforts come together to create great user
-                experiences. As a developer, I aspire to be apart of a team that
-                is oriented in this way, and look forward to share my knowledge
-                and skill toward the concept and creation of sophisticated
-                digital products.
-              </Description>
-            </Fade>
+            {/* <Fade left big> */}
+            <Description>
+              Energetic Front-End Developer with experience and passion for
+              responsive website design. Proficient in HTML5, CSS3, jQuery,
+              JavaScript and React; plus modern libraries and frameworks. I
+              believe that great design is a result of the collaboration between
+              designers, developers and stakeholders, whose combined experience
+              and efforts come together to create great user experiences. As a
+              developer, I aspire to be apart of a team that is oriented in this
+              way, and look forward to share my knowledge and skill toward the
+              concept and creation of sophisticated digital products.
+            </Description>
+            {/* </Fade> */}
             <Icon>
               <img src="/images/animations/Terminal.svg" alt="" />
             </Icon>
             <Skills>
-              <Fade left big>
-                <SkillHtml>
-                  <SkillTitle>Education</SkillTitle>
-                  <SkillDescription>
-                    Graduate<br></br>Network Systems <br></br>University
-                    Paulista - São Paulo -Brasil
-                  </SkillDescription>
-                </SkillHtml>
-              </Fade>
+              {/* <Fade left big> */}
+              <SkillHtml>
+                <SkillTitle>Education</SkillTitle>
+                <SkillDescription>
+                  Graduate<br></br>Network Systems <br></br>University Paulista
+                  - São Paulo -Brasil
+                </SkillDescription>
+              </SkillHtml>
+              {/* </Fade> */}
             </Skills>
             <Resume>
               <DownloadButton title="Download CV" subtitle="..." />
