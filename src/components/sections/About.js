@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-// import Fade from "react-reveal/Fade";
 import { H1 } from "../styles/TextStyles";
 import DownloadButton from "../buttons/DownloadButton";
 
@@ -31,7 +30,6 @@ const About = () => {
           </GridTree>
 
           <GridOne>
-            {/* <Fade left big> */}
             <Description>
               Energetic Front-End Developer with experience and passion for
               responsive website design. Proficient in HTML5, CSS3, jQuery,
@@ -43,12 +41,12 @@ const About = () => {
               way, and look forward to share my knowledge and skill toward the
               concept and creation of sophisticated digital products.
             </Description>
-            {/* </Fade> */}
+
             <Icon>
               <img src="/images/animations/Terminal.svg" alt="" />
             </Icon>
             <Skills>
-              {/* <Fade left big> */}
+             
               <SkillHtml>
                 <SkillTitle>Education</SkillTitle>
                 <SkillDescription>
@@ -56,7 +54,7 @@ const About = () => {
                   - São Paulo -Brasil
                 </SkillDescription>
               </SkillHtml>
-              {/* </Fade> */}
+             
             </Skills>
             <Resume>
               <DownloadButton title="Download CV" subtitle="..." />
@@ -133,10 +131,6 @@ const BodyGrid = styled.div`
     left: 41px;
 
     @media (max-width: 819px) {
-      /* position: absolute;
-      top: -83px;
-      width: 129%; */
-
       position: absolute;
       top: -104px;
       left: -76px;
@@ -144,10 +138,6 @@ const BodyGrid = styled.div`
     }
 
     @media (max-width: 450px) {
-      /* position: absolute;
-      top: 37px;
-      left: -76px;
-      width: 129%; */
     }
   }
   @media (max-width: 1023px) {
@@ -181,7 +171,6 @@ const MockupOne = styled.div`
   box-sizing: border-box;
 
   box-shadow: 0px 16.3881px 32.7761px rgb(149 208 249 / 18%);
-  /* Note: backdrop-filter has minimal browser support */
   border-radius: 16px;
 
   :hover {
@@ -192,12 +181,6 @@ const MockupOne = styled.div`
 
   @media (max-width: 1023px) {
     display: none;
-    /* position: absolute;
-    width: 183px;
-    height: 120px;
-    left: 1rem;
-    top: 20rem;
-    z-index: 3; */
   }
 `;
 
@@ -221,7 +204,6 @@ const MockupTwo = styled.div`
   box-sizing: border-box;
 
   box-shadow: 0px 16.3881px 32.7761px rgb(149 208 249 / 18%);
-  /* Note: backdrop-filter has minimal browser support */
   border-radius: 16px;
 
   :hover {
@@ -231,12 +213,6 @@ const MockupTwo = styled.div`
   }
   @media (max-width: 1023px) {
     display: none;
-    /* position: absolute;
-    width: 183px;
-    height: 120px;
-    left: 5rem;
-    top: 29rem;
-    z-index: 3; */
   }
 `;
 
@@ -260,7 +236,6 @@ const MockupTree = styled.div`
   box-sizing: border-box;
 
   box-shadow: 0px 16.3881px 32.7761px rgb(149 208 249 / 18%);
-  /* Note: backdrop-filter has minimal browser support */
   border-radius: 16px;
   :hover {
     transform: scale(1.1);
@@ -270,20 +245,8 @@ const MockupTree = styled.div`
 
   @media (max-width: 1023px) {
     display: none;
-    /* position: absolute;
-    width: 183px;
-    height: 120px;
-    left: 5rem;
-    top: 20rem;
-    z-index: 3; */
   }
-  /* @media (max-width: 850px) {
-    position: absolute;
-    width: 183px;
-    height: 120px;
-    left: 179px;
-    top: 198px;
-    transform: scale(0.8); */
+
 `;
 
 const MockupFour = styled.div`
@@ -306,29 +269,17 @@ const MockupFour = styled.div`
   box-sizing: border-box;
 
   box-shadow: 0px 16.3881px 32.7761px rgb(149 208 249 / 18%);
-  /* Note: backdrop-filter has minimal browser support */
   border-radius: 16px;
   :hover {
     transform: scale(1.1);
     transition-delay: 0.1s;
     transition: 1s cubic-bezier(0.01, 0.01, 0.01, 1);
   }
-  /* @media (max-width: 850px) {
-    position: absolute;
-    width: 183px;
-    height: 120px;
-    left: 179px;
-    top: 198px;
-    transform: scale(0.8); */
+
 
   @media (max-width: 1023px) {
     display: none;
-    /* position: absolute;
-    width: 183px;
-    height: 120px;
-    left: 27rem;
-    top: 29rem;
-    z-index: 3; */
+
   }
 `;
 
@@ -352,29 +303,17 @@ const MockupFive = styled.div`
   box-sizing: border-box;
 
   box-shadow: 0px 16.3881px 32.7761px rgb(149 208 249 / 18%);
-  /* Note: backdrop-filter has minimal browser support */
   border-radius: 16px;
   :hover {
     transform: scale(1.1);
     transition-delay: 0.1s;
     transition: 1s cubic-bezier(0.01, 0.01, 0.01, 1);
   }
-  /* @media (max-width: 850px) {
-    position: absolute;
-    width: 183px;
-    height: 120px;
-    left: 179px;
-    top: 198px;
-    transform: scale(0.8); */
+
 
   @media (max-width: 1023px) {
     display: none;
-    /* position: absolute;
-    width: 183px;
-    height: 120px;
-    left: 17rem;
-    top: 38rem;
-    z-index: 3; */
+
   }
 `;
 
@@ -398,29 +337,18 @@ const MockupSix = styled.div`
   box-sizing: border-box;
 
   box-shadow: 0px 16.3881px 32.7761px rgb(149 208 249 / 18%);
-  /* Note: backdrop-filter has minimal browser support */
+
   border-radius: 16px;
   :hover {
     transform: scale(1.1);
     transition-delay: 0.1s;
     transition: 1s cubic-bezier(0.01, 0.01, 0.01, 1);
   }
-  /* @media (max-width: 850px) {
-    position: absolute;
-    width: 183px;
-    height: 120px;
-    left: 179px;
-    top: 198px;
-    transform: scale(0.8); */
+
 
   @media (max-width: 1023px) {
     display: none;
-    /* position: absolute;
-    width: 183px;
-    height: 120px;
-    left: 20rem;
-    top: 38rem;
-    z-index: 3; */
+
   }
 `;
 
@@ -435,7 +363,6 @@ const Title = styled(H1)`
   display: inline-block;
   padding-bottom: 1rem;
   line-height: 1;
-  /* font-size: 2.8rem; */
   margin-top: 10rem;
   font-size: 3rem;
 
@@ -454,7 +381,7 @@ const Description = styled.p`
 `;
 
 const GridOne = styled.div`
-  /* margin-right: 1.5rem; */
+
   color: white;
 
   @media (max-width: 850px) {
@@ -466,12 +393,6 @@ const GridOne = styled.div`
     h3 {
       margin-bottom: 2rem;
     }
-  }
-
-  p {
-    /* font-size: 1.25rem;
-    color: White;
-    line-height: 1.6; */
   }
 
   h3 {
@@ -563,8 +484,4 @@ const Resume = styled.div`
 `;
 
 const Card1 = styled.div`
-  /* position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center; */
 `;

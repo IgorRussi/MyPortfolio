@@ -26,20 +26,12 @@ const StyledLink = styled(Link)`
     margin: auto;
   }
 `;
-// const Link = styled.a`
-//   transition: all 0.3s ease 0s;
-//   @media (max-width: 850px) {
-//     margin: auto;
-//   }
-// `;
 
 const Wrapper = styled.div`
   width: 227px;
   height: 70px;
   padding: 12px;
   background: #4285f4;
-  /* box-shadow: 0px 1px 3px #4285f4, 0px 20px 40px rgba(23, 0, 102, 0.2),
-    inset 0px 0px 0px 0.5px rgba(255, 255, 255, 0.5); */
   border-radius: 20px;
   border: 1px solid #4285f4;
 

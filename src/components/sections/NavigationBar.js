@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import { Navbar, Nav, Container } from "react-bootstrap";
 
-const NavComp = () => {
+const NavigationBar = () => {
   return (
     <Container expand="sm" bg="light">
       <Navbar expand="lg" bg="light">
@@ -12,7 +12,7 @@ const NavComp = () => {
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll" className="justify-content-end">
             <Nav
-              className="me-auto my-3 my-lg-0"
+              className="me-auto my-3 my-lg-0 justify-content-end"
               style={{ maxHeight: "150px" }}
               navbarScroll
               className="justify-content-end"
@@ -37,4 +37,4 @@ const NavComp = () => {
   );
 };
 
-export default NavComp;
+export default NavigationBar;

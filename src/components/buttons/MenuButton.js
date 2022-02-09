@@ -18,7 +18,6 @@ const MenuItem = styled.div`
   color: #6c757d;
   display: grid;
   grid-template-columns: 80px auto;
-  /* gap: ${(props) => (props.title ? "10px" : "0px")}; */
   align-items: center;
   padding: 10px;
   transition: 0.5s ease-out;

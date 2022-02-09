@@ -88,7 +88,6 @@ const ContentWrapper = styled.div`
 
   @media (max-width: 1023px) {
     grid-template-columns: 1fr;
-    /* padding: 40px 30px 380px; */
     margin-bottom: 17rem;
   }
 

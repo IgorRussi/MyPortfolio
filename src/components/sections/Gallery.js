@@ -106,7 +106,6 @@ const Gallery = () => {
 const Wrapper = styled.div`
   width: 100%;
   height: auto;
-  /* overflow: hidden; */
   margin-bottom: 20px;
 `;
 
@@ -124,16 +123,13 @@ const CarouselGroup = styled.div`
 `;
 
 const Cards = styled.div`
-  /* width: 30rem; */
   margin-left: 10px;
 `;
 const Card2 = styled.div`
-  /* margin: 10px; */
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  /* width: 300px; */
 `;
 
 const CardHeader = styled.div`

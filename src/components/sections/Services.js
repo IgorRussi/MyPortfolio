@@ -87,7 +87,6 @@ export default Services;
 
 const Wrapper = styled.div`
   position: relative;
-  /* background-color: #67aaf9; */
   background-color: #67aaf9;
   padding: 1rem 0;
 
@@ -179,10 +178,7 @@ const Title = styled(H1)`
   color: #24292d;
   position: relative;
   display: inline-block;
-  /* padding-bottom: 1rem; */
   line-height: 1;
-  /* font-size: 2.8rem; */
-  /* margin-bottom: 0.6rem; */
   font-size: 3rem;
   @media (max-width: 850px) {
     font-size: 2.25rem;

@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import NavComp from "../sections/NavComp";
+import NavigationBar from "../sections/NavigationBar";
 
 export default function Header() {
   return (
     <Wrapper>
-      <NavComp />
+      <NavigationBar />
     </Wrapper>
   );
 }

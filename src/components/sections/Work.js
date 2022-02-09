@@ -1,5 +1,4 @@
 import React from "react";
-// import Fade from "react-reveal/Fade";
 import styled from "styled-components";
 import { H1 } from "../styles/TextStyles";
 
@@ -26,10 +25,7 @@ const Work = () => {
 
       <WrapperContainer>
         <WrapperWork>
-          {/* <Fade bottom> */}
           <Title>PROJECTS</Title>
-          {/* </Fade> */}
-          {/* <Gallery /> */}
           <div className="grid">
             <Card2>
               <CardHeader>
@@ -152,17 +148,6 @@ const Work = () => {
                 </User>
               </CardBody>
             </Card2>
-            {/* <Fade bottom cascade>
-              {data.projects.map((project, index) => (
-                <Card
-                  key={index}
-                  heading={project.title}
-                  paragraph={project.para}
-                  imgUrl={project.imageSrc}
-                  projectLink={project.url}
-                ></Card>
-              ))}
-            </Fade> */}
           </div>
         </WrapperWork>
       </WrapperContainer>

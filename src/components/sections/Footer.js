@@ -75,20 +75,6 @@ const Footer = () => {
             <p>Copyright&copy;2022</p>
             <p>Made by Igor</p>
           </Copyright>
-          <Copyright></Copyright>
-
-          <FollowmeWrap>
-            <Followme>
-              {/* <h3>Follow me</h3>
-              <span></span> */}
-            </Followme>
-
-            <BackBtnwrap>
-              <a href="##services" class="back-btn">
-                {/* <img src="/images/icons/right-arrow.svg" alt="icons"></img> */}
-              </a>
-            </BackBtnwrap>
-          </FollowmeWrap>
         </Bottomfooter>
       </Container>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -137,15 +123,6 @@ const Wraper = styled.div`
       position: absolute;
       top: -5rem;
     }
-    /* @media (min-width: 768px) {
-      position: absolute;
-      bottom: 287px;
-    }
-
-    @media (min-width: 1200px) {
-      position: absolute;
-      bottom: 287px;
-    } */
   }
 `;
 
@@ -277,11 +254,6 @@ const Followme = styled.div`
   }
 `;
 
-const FollowmeWrap = styled.div`
-  margin-top: 0.8rem;
-  display: flex;
-`;
-
 const SocialIcons = styled.div`
   height: 2rem;
   margin: 2px;
@@ -293,5 +265,3 @@ const SocialIcons = styled.div`
     }
   }
 `;
-
-const BackBtnwrap = styled.div``;
