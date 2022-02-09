@@ -46,7 +46,6 @@ const About = () => {
               <img src="/images/animations/Terminal.svg" alt="" />
             </Icon>
             <Skills>
-             
               <SkillHtml>
                 <SkillTitle>Education</SkillTitle>
                 <SkillDescription>
@@ -54,7 +53,6 @@ const About = () => {
                   - São Paulo -Brasil
                 </SkillDescription>
               </SkillHtml>
-             
             </Skills>
             <Resume>
               <DownloadButton title="Download CV" subtitle="..." />
@@ -174,7 +172,7 @@ const MockupOne = styled.div`
   border-radius: 16px;
 
   :hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     transition-delay: 0.1s;
     transition: 1s cubic-bezier(0.01, 0.01, 0.01, 1);
   }
@@ -207,7 +205,7 @@ const MockupTwo = styled.div`
   border-radius: 16px;
 
   :hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     transition-delay: 0.1s;
     transition: 1s cubic-bezier(0.01, 0.01, 0.01, 1);
   }
@@ -224,7 +222,7 @@ const MockupTree = styled.div`
   top: 20rem;
   z-index: 3;
 
-  background: url("/images/animations/cardfigma.svg"),
+  background: url("/images/animations/mockupgatsby.svg"),
     radial-gradient(
       218.51% 281.09% at 100% 100%,
       rgb(5 185 239 / 2%) 0%,
@@ -238,7 +236,7 @@ const MockupTree = styled.div`
   box-shadow: 0px 16.3881px 32.7761px rgb(149 208 249 / 18%);
   border-radius: 16px;
   :hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     transition-delay: 0.1s;
     transition: 1s cubic-bezier(0.01, 0.01, 0.01, 1);
   }
@@ -246,7 +244,6 @@ const MockupTree = styled.div`
   @media (max-width: 1023px) {
     display: none;
   }
-
 `;
 
 const MockupFour = styled.div`
@@ -271,15 +268,13 @@ const MockupFour = styled.div`
   box-shadow: 0px 16.3881px 32.7761px rgb(149 208 249 / 18%);
   border-radius: 16px;
   :hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     transition-delay: 0.1s;
     transition: 1s cubic-bezier(0.01, 0.01, 0.01, 1);
   }
 
-
   @media (max-width: 1023px) {
     display: none;
-
   }
 `;
 
@@ -305,15 +300,13 @@ const MockupFive = styled.div`
   box-shadow: 0px 16.3881px 32.7761px rgb(149 208 249 / 18%);
   border-radius: 16px;
   :hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     transition-delay: 0.1s;
     transition: 1s cubic-bezier(0.01, 0.01, 0.01, 1);
   }
 
-
   @media (max-width: 1023px) {
     display: none;
-
   }
 `;
 
@@ -325,7 +318,7 @@ const MockupSix = styled.div`
   top: 38rem;
   z-index: 3;
 
-  background: url("/images/animations/cardmongo.svg"),
+  background: url("/images/animations/mockupgit.svg"),
     radial-gradient(
       218.51% 281.09% at 100% 100%,
       rgb(5 185 239 / 2%) 0%,
@@ -340,15 +333,13 @@ const MockupSix = styled.div`
 
   border-radius: 16px;
   :hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     transition-delay: 0.1s;
     transition: 1s cubic-bezier(0.01, 0.01, 0.01, 1);
   }
 
-
   @media (max-width: 1023px) {
     display: none;
-
   }
 `;
 
@@ -381,7 +372,6 @@ const Description = styled.p`
 `;
 
 const GridOne = styled.div`
-
   color: white;
 
   @media (max-width: 850px) {
@@ -483,5 +473,4 @@ const Resume = styled.div`
   justify-content: center;
 `;
 
-const Card1 = styled.div`
-`;
+const Card1 = styled.div``;

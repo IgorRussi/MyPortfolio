@@ -37,19 +37,19 @@ const Footer = () => {
             <h3>Services</h3>
             <ul>
               <li>
-                <a href="#services">Web Design</a>
+                <h5>Web Design</h5>
               </li>
               <li>
-                <a href="#services">Web Dev</a>
+                <h5>Web Dev</h5>
               </li>
               <li>
-                <a href="#services">App Design</a>
+                <h5>App Design</h5>
               </li>
               <li>
-                <a href="#services">Marketing</a>
+                <h5>Marketing</h5>
               </li>
               <li>
-                <a href="#services">UI Design</a>
+                <h5>UI Design</h5>
               </li>
             </ul>
           </Grid4links>
@@ -179,6 +179,11 @@ const Grid4links = styled.div`
     font-size: 1.1rem;
   }
 
+  h5 {
+    font-size: 12px;
+    margin-bottom: 0.4rem;
+    font-weight: 400;
+  }
   a {
     font-size: 12px;
     margin-bottom: 0.4rem;
