@@ -2,12 +2,16 @@
 import htmlIcon from "../../static/images/animations/htmllogo.svg";
 import cssIcon from "../../static/images/animations/css.png";
 import reactIcon from "../../static/images/animations/react.png";
+import reactTop from "../../static/images/animations/reacttop.svg";
 import jsIcon from "../../static/images/animations/javascript.png";
 import designIcon from "../../static/images/animations/nextjs.png";
 import codeIcon from "../../static/images/animations/github.png";
 import FigmaIcon from "../../static/images/animations/figma.png";
 import GatsbyIcon from "../../static/images/animations/Gatsby_Monogram.png";
 import NodeIcon from "../../static/images/animations/node.png";
+
+// Work Icons
+import Pepsi from "../../static/images/animations/Pepsi.png";
 
 // Social Icon
 import githubIcon from "../../static/images/icons/github.svg";
@@ -40,12 +44,12 @@ export default {
   // Work Section ------------------------
   projects: [
     {
-      imageHeader: "https://picsum.photos/800/600?random=1",
-      title: "Technology",
-      highLight: "Why is the Tesla Cybertruck designed the way it is?",
-      description: "An exploration into the truck's polarising design",
-      logo1: htmlIcon,
-      logo2: cssIcon,
+      imageHeader: Pepsi,
+      title: "Pepsi",
+      highLight: "Single Page Application",
+      description: "React + Gatsby + Styled Components",
+      logo1: GatsbyIcon,
+      logo2: reactTop,
       logo3: jsIcon,
       text1: "July Dec",
       text2: "2022",

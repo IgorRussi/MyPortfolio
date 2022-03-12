@@ -140,12 +140,18 @@ const Card2 = styled.div`
   width: 300px;
   align-self: center;
   justify-self: center;
+
+  :hover {
+    transform: scale(1.1);
+    transition-delay: 0.1s;
+    transition: 1s cubic-bezier(0.01, 0.01, 0.01, 1);
+  }
 `;
 
 const CardHeader = styled.div`
   img {
     width: 100%;
-    height: 200px;
+    height: 170px;
     object-fit: cover;
   }
 `;
@@ -168,6 +174,8 @@ const CardBody = styled.div`
     padding: 3px 10px;
     text-transform: uppercase;
     cursor: pointer;
+    width: 103px;
+    text-align: center;
   }
 
   p {
