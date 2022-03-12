@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import data from "../../data/yourdata";
 import { H1 } from "../styles/TextStyles";
 
 const Work = () => {
@@ -27,127 +28,28 @@ const Work = () => {
         <WrapperWork>
           <Title>PROJECTS</Title>
           <div className="grid">
-            <Card2>
-              <CardHeader>
-                <img src="https://picsum.photos/800/600?random=1" alt="rover" />
-              </CardHeader>
+            {data.projects.map((projects, index) => (
+              <Card2>
+                <CardHeader key={index}>
+                  <img src={projects.imageHeader} alt="rover" />
+                </CardHeader>
 
-              <CardBody>
-                <span>Technology</span>
-                <h4>Why is the Tesla Cybertruck designed the way it is?</h4>
-                <p>An exploration into the truck's polarising design</p>
-                <User>
-                  <img src="/images/animations/htmllogo.svg" alt="user" />
-                  <img src="/images/animations/css.png" alt="user" />
-                  <img src="/images/animations/javascript.png" alt="user" />
-                  <UserInfo>
-                    <h5>July Dec</h5>
-                    <h5>2h ago</h5>
-                  </UserInfo>
-                </User>
-              </CardBody>
-            </Card2>
-            <Card2>
-              <CardHeader>
-                <img src="https://picsum.photos/800/600?random=2" alt="rover" />
-              </CardHeader>
-
-              <CardBody>
-                <span>Technology</span>
-                <h4>Why is the Tesla Cybertruck designed the way it is?</h4>
-                <p>An exploration into the truck's polarising design</p>
-                <User>
-                  <img src="/images/animations/htmllogo.svg" alt="user" />
-                  <img src="/images/animations/css.png" alt="user" />
-                  <img src="/images/animations/javascript.png" alt="user" />
-                  <UserInfo>
-                    <h5>July Dec</h5>
-                    <h5>2h ago</h5>
-                  </UserInfo>
-                </User>
-              </CardBody>
-            </Card2>
-            <Card2>
-              <CardHeader>
-                <img src="https://picsum.photos/800/600?random=3" alt="rover" />
-              </CardHeader>
-
-              <CardBody>
-                <span>Technology</span>
-                <h4>Why is the Tesla Cybertruck designed the way it is?</h4>
-                <p>An exploration into the truck's polarising design</p>
-                <User>
-                  <img src="/images/animations/htmllogo.svg" alt="user" />
-                  <img src="/images/animations/css.png" alt="user" />
-                  <img src="/images/animations/javascript.png" alt="user" />
-                  <UserInfo>
-                    <h5>July Dec</h5>
-                    <h5>2h ago</h5>
-                  </UserInfo>
-                </User>
-              </CardBody>
-            </Card2>
-            <Card2>
-              <CardHeader>
-                <img src="https://picsum.photos/800/600?random=4" alt="rover" />
-              </CardHeader>
-
-              <CardBody>
-                <span>Technology</span>
-                <h4>Why is the Tesla Cybertruck designed the way it is?</h4>
-                <p>An exploration into the truck's polarising design</p>
-                <User>
-                  <img src="/images/animations/htmllogo.svg" alt="user" />
-                  <img src="/images/animations/css.png" alt="user" />
-                  <img src="/images/animations/javascript.png" alt="user" />
-                  <UserInfo>
-                    <h5>July Dec</h5>
-                    <h5>2h ago</h5>
-                  </UserInfo>
-                </User>
-              </CardBody>
-            </Card2>
-            <Card2>
-              <CardHeader>
-                <img src="https://picsum.photos/800/600?random=5" alt="rover" />
-              </CardHeader>
-
-              <CardBody>
-                <span>Technology</span>
-                <h4>Why is the Tesla Cybertruck designed the way it is?</h4>
-                <p>An exploration into the truck's polarising design</p>
-                <User>
-                  <img src="/images/animations/htmllogo.svg" alt="user" />
-                  <img src="/images/animations/css.png" alt="user" />
-                  <img src="/images/animations/javascript.png" alt="user" />
-                  <UserInfo>
-                    <h5>July Dec</h5>
-                    <h5>2h ago</h5>
-                  </UserInfo>
-                </User>
-              </CardBody>
-            </Card2>
-            <Card2>
-              <CardHeader>
-                <img src="https://picsum.photos/800/600?random=6" alt="rover" />
-              </CardHeader>
-
-              <CardBody>
-                <span>Technology</span>
-                <h4>Why is the Tesla Cybertruck designed the way it is?</h4>
-                <p>An exploration into the truck's polarising design</p>
-                <User>
-                  <img src="/images/animations/htmllogo.svg" alt="user" />
-                  <img src="/images/animations/css.png" alt="user" />
-                  <img src="/images/animations/javascript.png" alt="user" />
-
-                  <UserInfo>
-                    <h5>July Dec</h5>
-                    <h5>2h ago</h5>
-                  </UserInfo>
-                </User>
-              </CardBody>
-            </Card2>
+                <CardBody key={index}>
+                  <span>{projects.title}</span>
+                  <h4>{projects.highLight}</h4>
+                  <p>{projects.description}</p>
+                  <User>
+                    <img src={projects.logo1} alt="user" />
+                    <img src={projects.logo2} alt="user" />
+                    <img src={projects.logo3} alt="user" />
+                    <UserInfo>
+                      <h5>{projects.text1}</h5>
+                      <h5>{projects.text2}</h5>
+                    </UserInfo>
+                  </User>
+                </CardBody>
+              </Card2>
+            ))}
           </div>
         </WrapperWork>
       </WrapperContainer>

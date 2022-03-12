@@ -40,64 +40,37 @@ export default {
   // Work Section ------------------------
   projects: [
     {
-      title: "Project One", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1637912983574-12bb0acd5a74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      imageHeader: "https://picsum.photos/800/600?random=1",
+      title: "Technology",
+      highLight: "Why is the Tesla Cybertruck designed the way it is?",
+      description: "An exploration into the truck's polarising design",
+      logo1: htmlIcon,
+      logo2: cssIcon,
+      logo3: jsIcon,
+      text1: "July Dec",
+      text2: "2022",
     },
     {
-      title: "Project Two", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1588636172683-e2c2c1bc4e0d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=930&q=80",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      imageHeader: "https://picsum.photos/800/600?random=2",
+      title: "Technology",
+      highLight: "Why is the Tesla Cybertruck designed the way it is?",
+      description: "An exploration into the truck's polarising design",
+      logo1: htmlIcon,
+      logo2: cssIcon,
+      logo3: jsIcon,
+      text1: "July Dec",
+      text2: "2022",
     },
     {
-      title: "Project Three", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1613668030721-94a2f718d124?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
-    {
-      title: "Project Four", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1488818138649-d2734488e6d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2874&q=80",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
-    {
-      title: "Project Five", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1637958654151-ea7d1a0e906b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-    },
-    {
-      title: "Project Six", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1587608131258-0b465e8e1889?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
-      //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      imageHeader: "https://picsum.photos/800/600?random=3",
+      title: "Technology",
+      highLight: "Why is the Tesla Cybertruck designed the way it is?",
+      description: "An exploration into the truck's polarising design",
+      logo1: htmlIcon,
+      logo2: cssIcon,
+      logo3: jsIcon,
+      text1: "July Dec",
+      text2: "2022",
     },
 
     /*
