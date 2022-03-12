@@ -29,13 +29,15 @@ const Work = () => {
           <Title>PROJECTS</Title>
           <div className="grid">
             {data.projects.map((projects, index) => (
-              <Card2>
+              <Card2 href={projects.url}>
                 <CardHeader key={index}>
                   <img src={projects.imageHeader} alt="rover" />
                 </CardHeader>
 
                 <CardBody key={index}>
-                  <span>{projects.title}</span>
+                  <a href={projects.url}>
+                    <span>{projects.title}</span>
+                  </a>
                   <h4>{projects.highLight}</h4>
                   <p>{projects.description}</p>
                   <User>
@@ -164,18 +166,19 @@ const CardBody = styled.div`
   padding: 20px;
   min-height: 200px;
   font-family: Roboto;
-
-  span {
-    background: #67aaf9;
-    border-radius: 50px;
-    font-size: 12px;
+  a {
     margin: 10px 0px 10px;
-    color: #fff;
     padding: 3px 10px;
-    text-transform: uppercase;
-    cursor: pointer;
     width: 103px;
+    border-radius: 50px;
+    background: #67aaf9;
+    cursor: pointer;
     text-align: center;
+  }
+  span {
+    font-size: 12px;
+    color: #fff;
+    text-transform: uppercase;
   }
 
   p {

@@ -46,6 +46,7 @@ export default {
     {
       imageHeader: Pepsi,
       title: "Pepsi",
+      url: "https://pepsi-single-page-react.vercel.app/",
       highLight: "Single Page Application",
       description: "React + Gatsby + Styled Components",
       logo1: GatsbyIcon,
