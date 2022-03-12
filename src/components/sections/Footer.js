@@ -10,8 +10,10 @@ const Footer = () => {
           <Grid4About>
             <h3>About</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              officiis quo officia quia?
+              Avid learner, debate lover, and forever optimist. I like creating
+              products that have fun and nifty features and solve a problem for
+              people. Above all that, I really love supporting my team so
+              everyone feels good bringing their authentic selves to work.
             </p>
           </Grid4About>
 

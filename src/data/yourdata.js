@@ -133,7 +133,7 @@ export default {
     {
       img: htmlIcon,
       para:
-        "Created HTML markup templates. Updated and modified existing css code. Maintained HTML content on a daily basis.Processed data in content manage system",
+        "Created HTML markup templates. Updated and modified existing css code. Maintained HTML content on a daily basis.Processed data in content manage system. ",
     },
     {
       img: cssIcon,
@@ -143,37 +143,37 @@ export default {
     {
       img: jsIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Implemented best practices to JavaScript codebase, develop new functionality and create new layouts, teach advanced JavaScript techniques to the team.",
     },
     {
       img: reactIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Comprehensive knowledge of React JS Plataform and core principle. +100 custom React JS components. React-router to turn application into a Single Page Application",
     },
     {
       img: designIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Designed and developed a full-stack funding website based on Next.JS",
     },
     {
       img: codeIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Extensively used Git for version controlling and regularly pushed the code to GitHub.",
     },
     {
       img: FigmaIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Designed and developed User Interface Wireframes and Web Forms using Figma.",
     },
     {
       img: GatsbyIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Experience using Gatsby to delivery a great experience in less time. Built Web pages that are more user-interactive using Gatsby.",
     },
     {
       img: NodeIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Implemented various screens for the front end using React JS and used various predefined components from NPM and Redux library.",
     },
   ],
 
