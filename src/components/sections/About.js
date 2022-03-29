@@ -55,7 +55,7 @@ const About = () => {
               </SkillHtml>
             </Skills>
             <Resume>
-              <DownloadButton title="Download CV" subtitle="..." />
+              <DownloadButton title="My Resume" subtitle="..." />
             </Resume>
           </GridOne>
         </BodyGrid>

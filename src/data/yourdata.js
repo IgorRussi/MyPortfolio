@@ -9,9 +9,11 @@ import codeIcon from "../../static/images/animations/github.png";
 import FigmaIcon from "../../static/images/animations/figma.png";
 import GatsbyIcon from "../../static/images/animations/Gatsby_Monogram.png";
 import NodeIcon from "../../static/images/animations/node.png";
+import StyledIcon from "../../static/images/animations/styledcomp.svg";
 
-// Work Icons
+// Work Images
 import Pepsi from "../../static/images/animations/Pepsi.png";
+import bank from "../../static/images/animations/bank.png";
 
 // Social Icon
 import githubIcon from "../../static/images/icons/github.svg";
@@ -49,19 +51,20 @@ export default {
       url: "https://pepsi-single-page-react.vercel.app/",
       highLight: "Single Page Application",
       description: "React + Gatsby + Styled Components",
-      logo1: GatsbyIcon,
+      logo1: StyledIcon,
       logo2: reactTop,
       logo3: jsIcon,
       text1: "July Dec",
       text2: "2022",
     },
     {
-      imageHeader: "https://picsum.photos/800/600?random=2",
-      title: "Technology",
-      highLight: "Why is the Tesla Cybertruck designed the way it is?",
-      description: "An exploration into the truck's polarising design",
-      logo1: htmlIcon,
-      logo2: cssIcon,
+      imageHeader: bank,
+      title: "Bank Portal",
+      url: "https://bankportal.vercel.app/",
+      highLight: "Single Page Application",
+      description: "React  + Styled Components",
+      logo1: StyledIcon,
+      logo2: reactTop,
       logo3: jsIcon,
       text1: "July Dec",
       text2: "2022",
