@@ -14,6 +14,7 @@ import StyledIcon from "../../static/images/animations/styledcomp.svg";
 // Work Images
 import Pepsi from "../../static/images/animations/Pepsi.png";
 import bank from "../../static/images/animations/bank.png";
+import whistler from "../../static/images/animations/whistler.jpg";
 
 // Social Icon
 import githubIcon from "../../static/images/icons/github.svg";
@@ -70,18 +71,22 @@ export default {
       text2: "2022",
     },
     {
-      imageHeader: "https://picsum.photos/800/600?random=3",
-      title: "M.E.R.N",
+      imageHeader: whistler,
+      title: "Paralax",
+      url: "https://paralax-puce.vercel.app/",
       highLight: "Single Page Application",
-      description: "React + MongoDB + Express + NodeJS",
-      logo1: StyledIcon,
-      logo2: reactTop,
+      description: "HTML + CSS + JavaScript",
+      logo1: htmlIcon,
+      logo2: cssIcon,
       logo3: jsIcon,
       text1: "July Dec",
       text2: "2022",
     },
 
     /*
+
+     img random  "https://picsum.photos/800/600?random=3"
+
     If You Want To Add More Project just Copy and Paste This At The End
     ,{
         title: 'Project Five',
