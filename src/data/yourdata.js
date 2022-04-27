@@ -10,11 +10,14 @@ import FigmaIcon from "../../static/images/animations/figma.png";
 import GatsbyIcon from "../../static/images/animations/Gatsby_Monogram.png";
 import NodeIcon from "../../static/images/animations/node.png";
 import StyledIcon from "../../static/images/animations/styledcomp.svg";
+import TailIcon from "../../static/images/animations/tailwind.svg";
+import NextIcon from "../../static/images/animations/next-js.svg";
 
 // Work Images
 import Pepsi from "../../static/images/animations/Pepsi.png";
 import bank from "../../static/images/animations/bank.png";
 import whistler from "../../static/images/animations/whistler.jpg";
+import hulu from "../../static/images/animations/hulu.png";
 
 // Social Icon
 import githubIcon from "../../static/images/icons/github.svg";
@@ -47,6 +50,18 @@ export default {
   // Work Section ------------------------
   projects: [
     {
+      imageHeader: hulu,
+      title: "Hulu 2.0",
+      url: "https://hulu-2-0-sepia.vercel.app/",
+      highLight: "Hulu 2.0 Clone",
+      description: "React + Next JS + Tailwind + API",
+      logo1: NextIcon,
+      logo2: reactTop,
+      logo3: TailIcon,
+      text1: "Jan",
+      text2: "2022",
+    },
+    {
       imageHeader: Pepsi,
       title: "Pepsi",
       url: "https://pepsi-single-page-react.vercel.app/",
@@ -55,8 +70,8 @@ export default {
       logo1: StyledIcon,
       logo2: reactTop,
       logo3: jsIcon,
-      text1: "July Dec",
-      text2: "2022",
+      text1: "Dec",
+      text2: "2021",
     },
     {
       imageHeader: bank,
@@ -67,7 +82,7 @@ export default {
       logo1: StyledIcon,
       logo2: reactTop,
       logo3: jsIcon,
-      text1: "July Dec",
+      text1: "Feb",
       text2: "2022",
     },
     {
@@ -79,7 +94,7 @@ export default {
       logo1: htmlIcon,
       logo2: cssIcon,
       logo3: jsIcon,
-      text1: "July Dec",
+      text1: "Mar",
       text2: "2022",
     },
 
