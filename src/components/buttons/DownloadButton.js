@@ -6,7 +6,7 @@ import { Caption2 } from "../styles/TextStyles";
 export default function DownloadButton(props) {
   const { title } = props;
   return (
-    <StyledLink href="/Files/Resume Igor Front End Developer.pdf" download>
+    <StyledLink href="/Files/Resume Igor Front End Developer 2022.pdf" download>
       <Wrapper>
         <IconWrapper>
           <Icon src="/images/icons/download.svg" className="icon" />
